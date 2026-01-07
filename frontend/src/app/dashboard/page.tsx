@@ -358,7 +358,8 @@ export default function Dashboard() {
                         </div>
                       </div>
 
-                      <h3 className={`text-xl font-semibold mb-3 ${task.completed ? 'line-through opacity-60' : ''}`}>
+                      {/* ✅ Corrected Task Title Overflow */}
+                      <h3 className={`text-xl font-semibold mb-3 break-words overflow-hidden ${task.completed ? 'line-through opacity-60' : ''}`}>
                         {task.title}
                       </h3>
                       {task.description && <p className="text-white/60 text-sm mb-4 break-words">{task.description}</p>}
