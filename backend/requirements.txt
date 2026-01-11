@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+aiosqlite
+python-jose[cryptography]
+python-dotenv
+python-multipart
+bcrypt
