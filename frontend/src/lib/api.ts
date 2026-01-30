@@ -1,7 +1,7 @@
 import axios, { InternalAxiosRequestConfig, AxiosRequestHeaders } from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://phase-2-backend-productions.up.railway.app',
+  baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://mahad-khan907-todo-phase2-backend.hf.space/',
   headers: {
     'Content-Type': 'application/json',
   },
